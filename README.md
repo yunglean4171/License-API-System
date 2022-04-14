@@ -45,4 +45,4 @@ Also I recommend to change secretkey used to correctly perform api requests. To 
 
 **Have in my mind that this discord bot is not secured and every user can use commands. So I recommend to change permissions or use it on private server**
 # Contributing
-If you have some ideas that you want to suggest please make a [pull requests](https://github.com/yunglean4171/Coinbase-Simulator/pulls) and if you found some bugs please make an [issue](https://github.com/yunglean4171/Coinbase-Simulator/issues). Every contribution will be appreciated.
+If you have some ideas that you want to suggest please make a [pull requests](https://github.com/yunglean4171/License-API-System/pulls) and if you found some bugs please make an [issue](https://github.com/yunglean4171/License-API-System/issues). Every contribution will be appreciated.
