@@ -16,6 +16,7 @@ To create this project I used free mysql service [RemoteMySQL](https://remotemys
 ### 2. API
 Open ***api.py*** file and edit mysql login credentials:
 ![](https://i.imgur.com/VI6JWgs.png)
+
 When this step is done run api script by running this command:
 ```
 python3 api.py
@@ -24,6 +25,7 @@ python3 api.py
 Final but not required step is running simple discord bot.
 To do this open ***config.json*** file in **/bot directory** and put your discord bot token.
 ![](https://i.imgur.com/UBMIg3y.png)
+
 Also I recommend to change secretkey used to correctly perform api requests. To change it simply replace ***skey*** value in ***secretkey*** table to different one.
 ![](https://i.imgur.com/rk9eXbe.png)
 
