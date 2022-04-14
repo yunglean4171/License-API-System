@@ -15,6 +15,7 @@ pip3 install -r requirements.txt
 To create this project I used free mysql service [RemoteMySQL](https://remotemysql.com/) its fast enough to store and make operations on small amount of data (up to 100mb). But u can use [XAMPP](https://www.apachefriends.org/) if you use windows/macos/linux its completely free. When its done sign in to mysql root priviliges account and create database named ***licensesystem*** then import **sql.sql** file.
 ### 2. API
 Open ***api.py*** file and edit mysql login credentials:
+
 ![](https://i.imgur.com/VI6JWgs.png)
 
 When this step is done run api script by running this command:
