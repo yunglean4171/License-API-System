@@ -1,0 +1,5 @@
+discord.py==1.7.3
+Flask==1.1.2
+Flask_RESTful==0.3.8
+mysql_connector_repackaged==0.3.1
+requests==2.27.1
