@@ -1,4 +1,4 @@
-fx_version 'adamant'
+fx_version 'cerulean'
 game 'gta5'
 lua54 'yes'
 
@@ -11,6 +11,5 @@ client_scripts {
 }
 
 server_scripts {
-    'server.lua',
-    'config.lua
+    'server.lua'
 }
