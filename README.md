@@ -1,4 +1,4 @@
-# License-API-System
+# License-API-System (python 3.9.12)
 ## Build with:
 - [Discord.py](https://discordpy.readthedocs.io/en/stable/)
 - [Flask](https://flask.palletsprojects.com/en/2.1.x/)
