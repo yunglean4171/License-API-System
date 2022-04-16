@@ -1,5 +1,5 @@
-local id = GetCurrentServerEndpoint() --in this case id = server ip
-local licensekey = Config.licensekey
+local id = "SERVER_IP" --in this case id = server ip
+local licensekey = "YOUR-LICENSE-KEY"
 
 function Verificate()
     local ResourceName = GetCurrentResourceName()
