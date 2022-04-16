@@ -3,7 +3,6 @@ local licensekey = Config.licensekey
 
 function Verificate()
     local ResourceName = GetCurrentResourceName()
-
     PerformHttpRequest('http://127.0.0.1:5000/' .. licensekey .. '/' .. id, function(statusCode, resultData, resultHeaders)
 
         if statusCode == 200 then
@@ -15,7 +14,12 @@ function Verificate()
             else
                 print('^1 [' .. ResourceName .. '] - ^7Auth Not Validated')
             end
-            
+        elseif statusCode == 404 then
+            print('api error')
+            Verificate()
+        else
+            print('^1 [' .. ResourceName .. '] - ^7An unknown error has occurred')
+        end
     end, 'GET')
 end
 
