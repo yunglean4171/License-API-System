@@ -9,10 +9,37 @@
     body {background-color: #101010;}
     h1  {color: white;}
     a {color: white;}
+    h2 {color: white;}
+    li {color: white;}
+    p1 {color:  white;}
 </style>
 </head>
 <body>
    <center><h1>yunglean_#4171 License API System</h1>
     <a href="https://github.com/yunglean4171/License-API-System" rel="noreferrer noopener" target="_blank">Click here to visit repo</a></center>
+    
+    <br><br><h2>Available requests:</h2>
+    <ul style="list-style-type: circle;">
+    <li>GET</li>
+    <li>POST</li>
+    <li>DELETE</li>
+    </ul>
+
+    <br><br><h2><em><strong>1. GET REQUEST URL:</strong></em></h2>
+    <em><p1 id="geturl"></p1></em>
+    <br><p1>Responses: "true" or "false"</p1>
+
+    <br><br><h2><em><strong>2. POST REQUEST URL:</strong></em></h2>
+    <em><p1 id="posturl"></p1></em>
+    <br><p1>Response: "licensekey has been added"</p1>
+
+    <br><br><h2><em><strong>3. DELETE REQUEST URL:</strong></em></h2>
+    <em><p1 id="delurl"></p1></em>
+    <br><p1>Response: "licensekey has been deleted"</p1>
+    <script>
+        document.getElementById("geturl").innerHTML = window.location.href + "licenskey/id";   
+        document.getElementById("posturl").innerHTML = window.location.href + "add/secretkey/licenskey/id";   
+        document.getElementById("delurl").innerHTML = window.location.href + "del/secretkey/licenskey/id";   
+    </script>
 </body>
 </html>
