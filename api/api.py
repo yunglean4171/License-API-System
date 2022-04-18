@@ -1,8 +1,8 @@
-from flask import Flask
+from flask import Flask, render_template
 from flask_restful import Api, Resource
 import mysql.connector
 
-app = Flask(__name__)
+app = Flask(__name__,template_folder='')
 api = Api(app)
 
 # mysql database login credentials
@@ -13,6 +13,10 @@ mydb = mysql.connector.connect(
   database="licensesystem"
 )
 cursor = mydb.cursor()
+
+@app.route('/')
+def index():
+    return render_template('index.html')
 
 class CheckKey(Resource):
     def get(self, licensekey, id):   
